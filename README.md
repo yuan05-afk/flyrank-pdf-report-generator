@@ -38,7 +38,15 @@ curl -L http://localhost:8011/reports/<id>/download -o report.pdf
 - **By category** table — SQL `GROUP BY category` with per-category averages
 - **Pages needing attention** — lowest-scoring pages (`ORDER BY seo_score ASC`)
 
-Sample output: [`reports/sample-report.pdf`](reports/sample-report.pdf)
+### Sample report (page preview)
+
+Rendered from [`reports/sample-report.pdf`](reports/sample-report.pdf):
+
+![Sample SEO Audit PDF report](assets/sample-report.png)
+
+### Interactive docs
+
+![PDF Report Generator Swagger UI](assets/swagger.png)
 
 ## Proof
 
