@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+data.db
+data.db-journal
+reports/*.pdf
+_checkpoint.py
+_pdf_extract.txt
+*.log
