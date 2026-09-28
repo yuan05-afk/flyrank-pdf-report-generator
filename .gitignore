@@ -9,3 +9,6 @@ reports/*.pdf
 _checkpoint.py
 _pdf_extract.txt
 *.log
+
+# Local Netlify folder
+.netlify
